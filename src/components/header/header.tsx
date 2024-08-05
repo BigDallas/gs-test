@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import styles from './header.module.scss';
 import { Link, NavLink } from 'react-router-dom';
+import CroplogoWebp from '../../assets/croplogo.webp';
 
 export interface HeaderProps {
     className?: string;
@@ -13,20 +14,18 @@ export interface HeaderProps {
 export const Header = ({ className }: HeaderProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <a href="/">Logo</a>
+            <a href="/">
+                <img
+                    src={CroplogoWebp}
+                    className={classNames(styles.img1, styles.img2, styles.img3, styles.img4)}
+                />
+            </a>
             <div className={styles.menu}>
+                <h1 className={classNames(styles.header1, styles.header2)}>DELI</h1>
                 <NavLink
-                    to="/"
+                    to="tel:2155548984"
                     className={({ isActive }) => classNames({ [styles.active]: isActive })}
-                >
-                    Home
-                </NavLink>
-                <NavLink
-                    to="/about"
-                    className={({ isActive }) => classNames({ [styles.active]: isActive })}
-                >
-                    About
-                </NavLink>
+                ></NavLink>
             </div>
         </div>
     );

@@ -7,12 +7,14 @@
     justify-content: space-between;
     padding-right: 3.5em;
     align-items: center;
-    height: 4em;
     font: $button-font;
 
     @media only screen and (max-width: $mobile-width) {
-        padding: 0 3em
+        padding: 0 3em;
     }
+    background-color: #c93f38;
+    height: 5em;
+    color: $white;
 }
 
 .menu {
@@ -24,4 +26,29 @@
 .active {
     color: $black;
     font-weight: 600;
+}
+.img1 {
+}
+.img2 {
+}
+.img3 {
+}
+.img4 {
+    width: 250px;
+}
+.button1 {
+    background-color: $white;
+    border-radius: 30px;
+    width: 75px;
+    display: block;
+    overflow: visible;
+    position: static;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.header1 {
+}
+.header2 {
+    font-size: 40px;
+    font-family: coffee-shop;
 }

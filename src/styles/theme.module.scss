@@ -7,6 +7,13 @@ $snow-white: #F5F5F5;
 
 //fonts
 $my-prettyfont: 'DM Sans', sans-serif;
+@font-face {
+    font-family: "coffee-shop";
+    src: local("assets\Coffee Shop Bold_Trial Version.ttf");
+}    
+* {
+    font-family: "coffee-shop", sans-serif; 
+} 
 
 //text
 $small-font: 200 1rem/1.4 $my-prettyfont;
