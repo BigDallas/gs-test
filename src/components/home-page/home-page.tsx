@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import styles from './home-page.module.scss';
 import headerStyles from '../header/header.module.scss';
+import LogoTEXTPng from '../../assets/LogoTEXT.png';
 
 export interface HomePageProps {
     className?: string;
@@ -13,21 +14,27 @@ export interface HomePageProps {
 export const HomePage = ({ className }: HomePageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <div className={styles.title}>Got Sandwiches</div>
+            <div className={styles.title}>
+                <img src={LogoTEXTPng} alt="" className={styles.img1} />
+            </div>
             <div className={styles.paragraph}>
-                <div className={styles.text}>Whn you gotta eat, eat BETTER!</div>
+                <div className={classNames(styles.text, styles.div3)}>
+                    When you gotta eat, eat BETTER!
+                </div>
             </div>
             <a href="https://gotsandwiches.square.site/#most-popular" className={styles.button}>
                 Order Menu!{' '}
             </a>
-            <a href="tel:2153014009" className={styles.button1} type="button" >
-                Or Call Now to Order! 
+            <a href="tel:2153014009" className={styles.button1} type="button">
+                Or Call Now to Order!
             </a>
-            <img
-                src="https://t3.ftcdn.net/jpg/02/10/13/06/360_F_210130694_BgPkDbKWdfDpPD6etk0SaGWwSsdNb39d.jpg"
-                alt=""
-                className={styles.image}
-            />
+            <div className={styles.div4}>
+                <img
+                    src="https://t3.ftcdn.net/jpg/02/10/13/06/360_F_210130694_BgPkDbKWdfDpPD6etk0SaGWwSsdNb39d.jpg"
+                    alt=""
+                    className={styles.image}
+                />
+            </div>
             <div className={styles.paragraph}>
                 <div className={styles.div1}>Savor Fresh, Handcrafted Goodness Daily</div>
             </div>

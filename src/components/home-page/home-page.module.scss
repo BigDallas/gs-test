@@ -37,7 +37,6 @@
     font-variant: normal;
     font-stretch: normal;
     line-height: 1.4;
-    font-family: coffee-shop;
     font-size: 7rem;
 }
 
@@ -75,8 +74,8 @@
     font-variant: normal;
     font-stretch: normal;
     line-height: 1.3;
-    font-family: 'DM Sans', sans-serif;
     font-size: 3rem;
+    font-family: Impact, sans-serif;
 }
 
 .image {
@@ -86,14 +85,19 @@
     height: auto;
     border-radius: 0px;
     border: 4px solid #000000;
+    padding: 0px;
 }
 .a {
 }
 .div1 {
     font-size: 40px;
+    font-family: Impact, sans-serif;
+    padding: 12px;
 }
 .div2 {
     font-size: 26px;
+    font-family: Impact, sans-serif;
+    padding: 20px;
 }
 .Button2 {
 }
@@ -105,4 +109,17 @@
     text-align: center;
     width: 400px;
     color: $white;
+    font-family: Impact, sans-serif;
+    font-weight: 100;
+}
+.div3 {
+    font-family: Impact, sans-serif;
+}
+.div4 {
+    align-self: center;
+    padding: 20px;
+}
+.img1 {
+    padding-right: 40px;
+    padding-left: 40px;
 }

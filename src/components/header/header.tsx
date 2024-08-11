@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import styles from './header.module.scss';
 import { Link, NavLink } from 'react-router-dom';
-import CroplogoWebp from '../../assets/croplogo.webp';
+import CroplogoPng from '../../assets/croplogo.png';
 
 export interface HeaderProps {
     className?: string;
@@ -16,7 +16,7 @@ export const Header = ({ className }: HeaderProps) => {
         <div className={classNames(styles.root, className)}>
             <a href="/">
                 <img
-                    src={CroplogoWebp}
+                    src={CroplogoPng}
                     className={classNames(styles.img1, styles.img2, styles.img3, styles.img4)}
                 />
             </a>
