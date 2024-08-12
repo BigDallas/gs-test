@@ -25,7 +25,7 @@ export const HomePage = ({ className }: HomePageProps) => {
             <a href="https://gotsandwiches.square.site/#most-popular" className={styles.button}>
                 Order Menu!{' '}
             </a>
-            <a href="tel:2153014009" className={styles.button1} type="button">
+            <a href="tel:2153104009" className={styles.button1} type="button">
                 Or Call Now to Order!
             </a>
             <div className={styles.div4}>

@@ -21,9 +21,8 @@ export const Footer = ({ className }: FooterProps) => {
             <div className={styles.details}>
                 <div>Contact Us!</div>
                 <div className={styles.small}>
-                    Mail: info@mysite.com
                     <br />
-                    Tel: 215-301-4009
+                    Tel: 215-310-4009
                     <br />
                     1629 Haines Rd,
                     <br />
